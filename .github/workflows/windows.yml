@@ -37,7 +37,7 @@ jobs:
     # 使用表达式语法${{}}访问上下文 https://help.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions
     env:
       target-name: QtScrcpy
-      vcvarsall-path: 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Auxiliary\Build\vcvarsall.bat'
+      vcvarsall-path: 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\vcvarsall.bat'
       qt-install-path: ${{ github.workspace }}/${{ matrix.qt-ver }}
       plantform-des: win
     # 步骤
